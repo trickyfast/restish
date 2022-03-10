@@ -11,7 +11,7 @@ var commit string
 var date string
 
 func main() {
-	cli.Init("restish", version)
+	cli.Init("forte-restish", version)
 
 	// Register default encodings, content type handlers, and link parsers.
 	cli.Defaults()
